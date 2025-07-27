@@ -94,4 +94,4 @@ The project is configured to be built and run via Docker as per the hackathon re
 
 ## 5. Approach Explanation for Challenge 1B
 
-A detailed, 300-500 word explanation of the methodology used for the persona-driven intelligence task can be found in the `approach_explanation.md` file.
+A detailed, 300-500 word explanation of the methodology used for the persona-driven intelligence task can be found in the [`approach_explanation.md`](./approach_explanation.md).
