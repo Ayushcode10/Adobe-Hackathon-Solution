@@ -92,8 +92,8 @@ def get_title(text_data, sorted_sizes):
     return title_item['text']
 
 def process_all_pdfs():
-    input_dir = Path("sample_dataset/pdfs")
-    output_dir = Path("sample_dataset/outputs")
+    input_dir = Path("/app/input")
+    output_dir = Path("/app/output")
     output_dir.mkdir(parents=True, exist_ok=True)
     pdf_files = list(input_dir.glob("*.pdf"))
 

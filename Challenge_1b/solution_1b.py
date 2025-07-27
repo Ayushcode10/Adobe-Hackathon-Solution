@@ -28,8 +28,8 @@ def main():
         print("Example: python solution_1b.py \"Collection 1\"")
         return
 
-    collection_name = sys.argv[1]
-    collection_dir = Path(collection_name)
+    collection_dir = Path("/app") 
+
 
     if not collection_dir.is_dir():
         print(f"Error: Directory '{collection_dir}' not found.")
@@ -37,6 +37,8 @@ def main():
 
     request_file = collection_dir / "challenge1b_input.json"
     pdfs_dir = collection_dir / "PDFs"
+    output_file = Path("/app/output.json")
+
     output_file = Path(f"{collection_dir.name}_output.json")
 
     print("Loading embedding model...")
@@ -49,7 +51,7 @@ def main():
     # --- IMPROVED QUERY GENERATION ---
     persona = request_data['persona']['role']
     task = request_data['job_to_be_done']['task']
-    query = f"As a {persona}, I need to {task}. Find the most relevant information about activities, locations, food, and logistics for this trip."
+    query = f"As a {persona}, I need to {task}. Provide the most relevant information to help accomplish this."
     print(f"\nImproved User Query: {query}")
     # --- END IMPROVEMENT ---
 
