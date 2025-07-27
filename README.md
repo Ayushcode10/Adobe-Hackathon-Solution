@@ -20,32 +20,78 @@ This repository contains the complete solution for Round 1 of the Adobe India Ha
 * **Robust Line Assembly:** Intelligently groups text "spans" with different formatting into complete, coherent lines of text, preserving proper spacing.
 * **Automated JSON Output:** Automatically generates a correctly formatted JSON file for each processed PDF.
 
-### The Journey Ahead
+### Challenge 1B: Persona-Driven Document Intelligence
 
-**Round 1:**
-Kick things off by building the brains — extract structured outlines from raw PDFs with blazing speed and pinpoint accuracy. Then, power it up with on-device intelligence that understands sections and links related ideas together.
+* **Semantic Search Engine:** Implements a full semantic search pipeline instead of simple keyword matching. This allows the system to understand the *meaning* and *intent* behind a user's request.
+* **Text Embeddings:** Uses the powerful `all-MiniLM-L6-v2` sentence-transformer model to convert both the user's query and the document text into meaningful numerical vectors (embeddings).
+* **Content Chunking:** Automatically reads and parses multiple PDFs, breaking them down into logical, paragraph-sized text chunks for analysis.
+* **Relevance Ranking:** Uses Cosine Similarity to mathematically compare the user's query vector to all document chunk vectors, providing a precise relevance score for ranking.
+* **Improved Query Generation:** Enhances the user's "persona" and "task" into a more descriptive, natural language query to achieve more accurate and relevant results.
 
-**Round 2:**
-It's showtime! Build a beautiful, intuitive reading webapp using Adobe's PDF Embed API. You will be using your Round 1 work to design a futuristic webapp.
+## 3. Tech Stack
 
-### Why This Matters
+* **Language:** Python 3.11+
+* **Core Libraries:**
+    * `PyMuPDF (fitz)`: For fast and detailed PDF parsing.
+    * `sentence-transformers`: For generating text embeddings.
+    * `torch`: As the backend for sentence-transformers and tensor operations.
+* **Containerization:** Docker
 
-In a world flooded with documents, what wins is not more content — it's context. You're not just building tools — you're building the future of how we read, learn, and connect. No matter your background — ML hacker, UI builder, or insight whisperer — this is your stage.
+## 4. Setup and How to Run
 
-Are you in?
+### A. Local Setup (for testing)
 
-It's time to read between the lines. Connect the dots. And build a PDF experience that feels like magic. Let's go.
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Ayushcode10/Adobe-Hackathon-Solution.git
+    cd Adobe-Hackathon-Solution
+    ```
 
----
+2.  **Create a virtual environment (recommended):**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
 
-## Challenge Solutions
+3.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-### [Challenge 1a: PDF Processing Solution](./Challenge_1a/README.md)
-Basic PDF processing with Docker containerization and structured data extraction.
+### B. Running the Scripts Locally
 
-### [Challenge 1b: Multi-Collection PDF Analysis](./Challenge_1b/README.md)
-Advanced persona-based content analysis across multiple document collections.
+* **To run the Challenge 1A solution:**
+    ```bash
+    # Navigate to the Challenge_1a directory
+    cd Challenge_1a
+    # Run the script
+    python process_pdfs.py
+    ```
 
----
+* **To run the Challenge 1B solution:**
+    ```bash
+    # Navigate to the Challenge_1b directory
+    cd Challenge_1b
+    # Run the script, providing the collection name as an argument
+    python solution_1b.py "Collection 1"
+    ```
 
-**Note**: Each challenge directory contains detailed documentation and implementation details. Please refer to the individual README files for comprehensive information about each solution.
+### C. Running with Docker (Official Submission Method)
+
+The project is configured to be built and run via Docker as per the hackathon requirements.
+
+1.  **Build the Docker image:**
+    From the root directory of the project, run:
+    ```bash
+    docker build -t adobe-hackathon-solution .
+    ```
+
+2.  **Run the container:**
+    The judges will use a `docker run` command similar to the one specified in the problem statement to mount the input/output directories and execute the scripts. For example, to run the Challenge 1A solution:
+    ```bash
+    docker run --rm -v "$(pwd)/Challenge_1a/sample_dataset/pdfs:/app/input" -v "$(pwd)/Challenge_1a/sample_dataset/outputs:/app/output" adobe-hackathon-solution python /app/Challenge_1a/process_pdfs.py
+    ```
+
+## 5. Approach Explanation for Challenge 1B
+
+A detailed, 300-500 word explanation of the methodology used for the persona-driven intelligence task can be found in the [`approach_explanation.md`](./approach_explanation.md).
