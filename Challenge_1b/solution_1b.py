@@ -39,8 +39,6 @@ def main():
     pdfs_dir = collection_dir / "PDFs"
     output_file = Path("/app/output.json")
 
-    output_file = Path(f"{collection_dir.name}_output.json")
-
     print("Loading embedding model...")
     model = SentenceTransformer('all-MiniLM-L6-v2')
     print("Model loaded.")
