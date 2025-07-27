@@ -1,0 +1,139 @@
+{
+    "metadata": {
+        "challenge_info": {
+            "challenge_id": "round_1b_003",
+            "test_case_name": "create_manageable_forms",
+            "description": "Creating manageable forms"
+        },
+        "documents": [
+            {
+                "filename": "Learn Acrobat - Create and Convert_1.pdf",
+                "title": "Learn Acrobat - Create and Convert_1"
+            },
+            {
+                "filename": "Learn Acrobat - Create and Convert_2.pdf",
+                "title": "Learn Acrobat - Create and Convert_2"
+            },
+            {
+                "filename": "Learn Acrobat - Edit_1.pdf",
+                "title": "Learn Acrobat - Edit_1"
+            },
+            {
+                "filename": "Learn Acrobat - Edit_2.pdf",
+                "title": "Learn Acrobat - Edit_2"
+            },
+            {
+                "filename": "Learn Acrobat - Export_1.pdf",
+                "title": "Learn Acrobat - Export_1"
+            },
+            {
+                "filename": "Learn Acrobat - Export_2.pdf",
+                "title": "Learn Acrobat - Export_2"
+            },
+            {
+                "filename": "Learn Acrobat - Fill and Sign.pdf",
+                "title": "Learn Acrobat - Fill and Sign"
+            },
+            {
+                "filename": "Learn Acrobat - Generative AI_1.pdf",
+                "title": "Learn Acrobat - Generative AI_1"
+            },
+            {
+                "filename": "Learn Acrobat - Generative AI_2.pdf",
+                "title": "Learn Acrobat - Generative AI_2"
+            },
+            {
+                "filename": "Learn Acrobat - Request e-signatures_1.pdf",
+                "title": "Learn Acrobat - Request e-signatures_1"
+            },
+            {
+                "filename": "Learn Acrobat - Request e-signatures_2.pdf",
+                "title": "Learn Acrobat - Request e-signatures_2"
+            },
+            {
+                "filename": "Learn Acrobat - Share_1.pdf",
+                "title": "Learn Acrobat - Share_1"
+            },
+            {
+                "filename": "Learn Acrobat - Share_2.pdf",
+                "title": "Learn Acrobat - Share_2"
+            },
+            {
+                "filename": "Test Your Acrobat Exporting Skills.pdf",
+                "title": "Test Your Acrobat Exporting Skills"
+            },
+            {
+                "filename": "The Ultimate PDF Sharing Checklist.pdf",
+                "title": "The Ultimate PDF Sharing Checklist"
+            }
+        ],
+        "persona": {
+            "role": "HR professional"
+        },
+        "job_to_be_done": {
+            "task": "Create and manage fillable forms for onboarding and compliance."
+        }
+    },
+    "extracted_sections": [
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "page_number": 12,
+            "text": "To create an interactive form, use the Prepare Forms tool. See Create a form from an existing  document.",
+            "importance_rank": 1
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "page_number": 9,
+            "text": "3. When finished, submit the form to either send the data to a server or create an email",
+            "importance_rank": 2
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "page_number": 2,
+            "text": "\u2022  Flat forms: These do not have interactive fields. It could be a paper form or PDF that  hasn\u2019t been optimized for form filling. The Fill & Sign tool automatically detects the  form fields like text fields, comb fields, checkboxes, and radio buttons. You can  manually add text and other symbols anywhere on the form using the Fill & Sign tool if  required.",
+            "importance_rank": 3
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "page_number": 2,
+            "text": "You can complete the forms by entering information and adding your signatures. Acrobat  also allows you to send your completed forms to others and securely save them in Adobe  cloud storage.",
+            "importance_rank": 4
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "page_number": 8,
+            "text": "Not all forms are fillable. Sometimes form creators don\u2019t convert their PDFs to  interactive fillable forms. Or, they intentionally design a form that you can fill in only by hand  or with the Fill & Sign tool. These non-interactive forms are called flat forms.",
+            "importance_rank": 5
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "page_number": 1,
+            "text": "Fill and Sign PDF Forms  You can easily fill, sign, and share your documents using Acrobat's Fill & Sign tool. Types  of PDF forms",
+            "importance_rank": 6
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "page_number": 12,
+            "text": "You can change a flat form to a fillable form by either using the Prepare Form tool or  enabling the Fill & Sign tools. Acrobat and Acrobat Reader users can use the Fill & Sign tool  to fill in flat forms.",
+            "importance_rank": 7
+        },
+        {
+            "document": "Learn Acrobat - Fill and Sign.pdf",
+            "page_number": 2,
+            "text": "It displays the Fill & Sign tools in the left pane. You can now fill in the form fields and sign the  form using the sign tools described in the following topics.",
+            "importance_rank": 8
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "page_number": 19,
+            "text": "\u2022  Download Form Field Data - Downloads a CSV file of the field-level content for all  child agreements spawned from this parent Bulk Send that have been completed.",
+            "importance_rank": 9
+        },
+        {
+            "document": "Learn Acrobat - Request e-signatures_1.pdf",
+            "page_number": 13,
+            "text": "The document is now ready to add any fields that you want the signers to fill in or sign.",
+            "importance_rank": 10
+        }
+    ]
+}

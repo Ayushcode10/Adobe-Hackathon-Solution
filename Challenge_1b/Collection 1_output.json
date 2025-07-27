@@ -1,0 +1,107 @@
+{
+    "metadata": {
+        "challenge_info": {
+            "challenge_id": "round_1b_002",
+            "test_case_name": "travel_planner",
+            "description": "France Travel"
+        },
+        "documents": [
+            {
+                "filename": "South of France - Cities.pdf",
+                "title": "South of France - Cities"
+            },
+            {
+                "filename": "South of France - Cuisine.pdf",
+                "title": "South of France - Cuisine"
+            },
+            {
+                "filename": "South of France - History.pdf",
+                "title": "South of France - History"
+            },
+            {
+                "filename": "South of France - Restaurants and Hotels.pdf",
+                "title": "South of France - Restaurants and Hotels"
+            },
+            {
+                "filename": "South of France - Things to Do.pdf",
+                "title": "South of France - Things to Do"
+            },
+            {
+                "filename": "South of France - Tips and Tricks.pdf",
+                "title": "South of France - Tips and Tricks"
+            },
+            {
+                "filename": "South of France - Traditions and Culture.pdf",
+                "title": "South of France - Traditions and Culture"
+            }
+        ],
+        "persona": {
+            "role": "Travel Planner"
+        },
+        "job_to_be_done": {
+            "task": "Plan a trip of 4 days for a group of 10 college friends."
+        }
+    },
+    "extracted_sections": [
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 9,
+            "text": "Packing for a trip to the South of France involves considering the season, planned activities,  and the needs of both adults and children. By following this comprehensive guide and  incorporating the tips and tricks provided, you'll be well-prepared for a comfortable and  enjoyable trip. Remember to pack light, versatile clothing, and essential items to make the  most of your travel experience. Bon voyage!",
+            "importance_rank": 1
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 8,
+            "text": "\u2022  Additional Tips: Plan your wine tour route in advance and consider hiring a driver or  joining a guided tour to avoid drinking and driving.",
+            "importance_rank": 2
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "page_number": 5,
+            "text": "\u2022  Bordeaux: Take a day trip to the world-renowned wine region and visit its prestigious  ch\u00e2teaux.",
+            "importance_rank": 3
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 1,
+            "text": "Planning a trip to the South of France requires thoughtful preparation to ensure a  comfortable and enjoyable experience. This guide covers everything from packing essentials  to travel tips, catering to all seasons and various activities. Whether you're traveling solo, with  kids, or in a group, this guide will help you make the most of your trip.",
+            "importance_rank": 4
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 5,
+            "text": "\u2022  Additional Tips: Download maps and travel guides to your devices for o\ufb04ine use.  Consider bringing a portable Wi-Fi hotspot for reliable internet access.",
+            "importance_rank": 5
+        },
+        {
+            "document": "South of France - Restaurants and Hotels.pdf",
+            "page_number": 8,
+            "text": "\u2022  Hotel Azur (Nice): A budget-friendly hotel o\ufb00ering comfortable rooms and easy  access to the beach and city center. The modern amenities and convenient location  make it a great choice for budget-conscious travelers.",
+            "importance_rank": 6
+        },
+        {
+            "document": "South of France - History.pdf",
+            "page_number": 1,
+            "text": "The South of France, renowned for its picturesque landscapes, charming villages, and  stunning coastline, is also steeped in history. From ancient Roman ruins to medieval  fortresses and Renaissance architecture, this region o\ufb00ers a fascinating glimpse into the past.  This guide will take you through the histories of major cities, famous historical sites, and other  points of interest to help you plan an enriching and unforgettable trip.",
+            "importance_rank": 7
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "page_number": 8,
+            "text": "\u2022  Walking Tour: Take a walking tour of sites related to Paul C\u00e9zanne, such as the Terrain  des Peintres and the Bib\u00e9mus Quarry.",
+            "importance_rank": 8
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "page_number": 7,
+            "text": "\u2022  Day Bag: A small, secure day bag for carrying essentials like water, snacks, and a  camera.",
+            "importance_rank": 9
+        },
+        {
+            "document": "South of France - Things to Do.pdf",
+            "page_number": 1,
+            "text": "The South of France, with its stunning coastline, picturesque villages, and vibrant cities, o\ufb00ers  a wealth of activities and experiences for travelers. Whether you're seeking adventure,  relaxation, or cultural enrichment, this region has something for everyone. This guide will  take you through a variety of activities and must-see attractions to help you plan an  unforgettable trip.",
+            "importance_rank": 10
+        }
+    ]
+}

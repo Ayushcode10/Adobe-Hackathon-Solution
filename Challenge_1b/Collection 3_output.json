@@ -1,0 +1,115 @@
+{
+    "metadata": {
+        "challenge_info": {
+            "challenge_id": "round_1b_001",
+            "test_case_name": "menu_planning",
+            "description": "Dinner menu planning"
+        },
+        "documents": [
+            {
+                "filename": "Breakfast Ideas.pdf",
+                "title": "Breakfast Ideas"
+            },
+            {
+                "filename": "Dinner Ideas - Mains_1.pdf",
+                "title": "Dinner Ideas - Mains_1"
+            },
+            {
+                "filename": "Dinner Ideas - Mains_2.pdf",
+                "title": "Dinner Ideas - Mains_2"
+            },
+            {
+                "filename": "Dinner Ideas - Mains_3.pdf",
+                "title": "Dinner Ideas - Mains_3"
+            },
+            {
+                "filename": "Dinner Ideas - Sides_1.pdf",
+                "title": "Dinner Ideas - Sides_1"
+            },
+            {
+                "filename": "Dinner Ideas - Sides_2.pdf",
+                "title": "Dinner Ideas - Sides_2"
+            },
+            {
+                "filename": "Dinner Ideas - Sides_3.pdf",
+                "title": "Dinner Ideas - Sides_3"
+            },
+            {
+                "filename": "Dinner Ideas - Sides_4.pdf",
+                "title": "Dinner Ideas - Sides_4"
+            },
+            {
+                "filename": "Lunch Ideas.pdf",
+                "title": "Lunch Ideas"
+            }
+        ],
+        "persona": {
+            "role": "Food Contractor"
+        },
+        "job_to_be_done": {
+            "task": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items."
+        }
+    },
+    "extracted_sections": [
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "page_number": 3,
+            "text": "\uf0b7  1 pound ground beef  \uf0b7  1 small onion, diced  \uf0b7  2 cloves garlic, minced  \uf0b7  1 carrot, grated  \uf0b7  1 celery stalk, diced  \uf0b7  1 can (28 ounces) crushed tomatoes  \uf0b7  1/4 cup tomato paste  \uf0b7  1/2 cup red wine (optional)  \uf0b7  1 teaspoon dried oregano  \uf0b7  1 teaspoon dried basil  \uf0b7  Salt and pepper to taste  \uf0b7  Spaghetti for serving  \uf0b7  Grated Parmesan cheese for garnish  Instructions:",
+            "importance_rank": 1
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "page_number": 12,
+            "text": "o Slice tomatoes and mozzarella.  o Arrange on a plate, alternating slices.  o Sprinkle with chopped basil, olive oil, balsamic glaze, and salt.  o Serve immediately.    Carrot Salad",
+            "importance_rank": 2
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "page_number": 5,
+            "text": "\u2022  1 large flour tortilla  \u2022  2 large eggs  \u2022  1/4 cup shredded cheese  \u2022  1/4 cup cooked sausage or bacon  \u2022  1/4 cup diced bell pepper  \u2022  Salsa for serving  Instructions:",
+            "importance_rank": 3
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "page_number": 4,
+            "text": "\u2022  1/4 cup cooked sausage or bacon  \u2022  1/4 cup diced bell pepper  \u2022  1/4 cup diced onion  \u2022  1 large flour tortilla  \u2022  Salsa for serving  Instructions:",
+            "importance_rank": 4
+        },
+        {
+            "document": "Lunch Ideas.pdf",
+            "page_number": 15,
+            "text": "\u2022  1 whole wheat tortilla  \u2022  4 slices turkey breast  \u2022  1/4 cup hummus  \u2022  1/4 cup shredded carrots  \u2022  1/4 cup baby spinach  Instructions:",
+            "importance_rank": 5
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "page_number": 14,
+            "text": "o Dice tomatoes and cucumber, slice red onion.  o Mix vegetables with olives and crumbled feta cheese.  o Whisk olive oil, vinegar, oregano, and salt, then pour over salad.  o Toss well and serve.    Green Bean Casserole",
+            "importance_rank": 6
+        },
+        {
+            "document": "Breakfast Ideas.pdf",
+            "page_number": 16,
+            "text": "\u2022  In a bowl, combine cottage cheese, cucumber, cherry tomatoes, and bell pepper.  \u2022  Season with salt and pepper.  \u2022  Serve immediately.",
+            "importance_rank": 7
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "page_number": 11,
+            "text": "o Dice tomatoes and cucumber, slice red onion.  o Blanch green beans until tender.  o Arrange tomatoes, cucumber, onion, green beans, olives, and tuna on a plate.  o Quarter hard-boiled eggs and add to the salad.  o Whisk olive oil, vinegar, mustard, and salt, then drizzle over the salad.  o Toss gently and serve.",
+            "importance_rank": 8
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "page_number": 13,
+            "text": "carrots, and cucumber on each wrapper.  o Roll tightly and serve with dipping sauce.    Gomae (Spinach with Sesame Dressing)",
+            "importance_rank": 9
+        },
+        {
+            "document": "Dinner Ideas - Mains_3.pdf",
+            "page_number": 6,
+            "text": "\uf0b7  2 pounds pork ribs  \uf0b7  1/4 cup honey  \uf0b7  1/4 cup soy sauce  \uf0b7  2 tablespoons rice vinegar  \uf0b7  3 cloves garlic, minced  \uf0b7  1 teaspoon grated ginger  \uf0b7  1 teaspoon paprika  \uf0b7  Salt and pepper to taste  \uf0b7  Sliced green onions for garnish  Instructions:",
+            "importance_rank": 10
+        }
+    ]
+}
